@@ -1,5 +1,5 @@
 # Assignment 3 - Requirements
-## Chris Bigge - cbpcm
+### Chris Bigge - cbpcm
 
 1.) The different type of users of the software system include the following:
 - Programming Students
@@ -26,27 +26,28 @@
 	- Have a dashboard where they can see all of their assignments and statistics for each assignment, filterable by section
 	- See which specific students haven't submitted assignments. 
 
-3.) Relevant data and contraints for each activity(in the same order as question 2)
-- Programming Students
-	- Assignment
-		- title, unique
-		- description
-		- due date
-		- status(open, closed)
-		- CONSTRAINT on status based on due date
-	- PersonalInfo(for TA, Professor, and student)
-		- name(first, middle, last)
-		- title
-		- email, must be unique
-		- phone(optional)
-	- Submission
-		- title
-		- content
-		- programming language
-		- date submitted
-		- comment
-		- submitter PersonalInfo, must match a PersonalInfo object with the title of student
-		- CONSTRAINT - check assignment status to make sure open before submission goes through
-- TAs
-	- Assignment(same attributes as above)
+3.) Relevant data and contraints for each activity
+- Assignment
+	- title, unique
+	- description
+	- due date
+	- status(open, closed)
+	- CONSTRAINT on status based on due date
+- Person
+	- name(first, middle, last)
+	- title
+	- email, must be unique
+	- phone(optional)
+- Submission
+	- title
+	- content
+	- programming language
+	- date submitted
+	- comment
+	- submitter PersonalInfo, must match a PersonalInfo object with the title of student
+	- CONSTRAINT - check assignment status to make sure open before submission goes through
 
+4.)
+- This system will be built as a web application. It will require a server to be run on that has an operating system that can run and manage a scalable web server.
+- The system will also need a database to store the data used by the web application.
+- Fast short term and long term storage with high capacity will be important for this web applciation to function well.
