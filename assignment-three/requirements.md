@@ -1,4 +1,5 @@
-# Assignment 3 - Requirements |-----| Chris Bigge - cbpcm
+# Assignment 3 - Requirements
+#### Chris Bigge - cbpcm
 
 1.) The different type of users of the software system include the following:
 - Programming Students
