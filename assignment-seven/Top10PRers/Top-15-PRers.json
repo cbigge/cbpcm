@@ -1,0 +1,92 @@
+{
+	"1": {
+		"github-id": "wojtek-t",
+		"country": "poland",
+		"company": "google",
+		"prs": "1116",
+	},
+	"2": {
+		"github-id": "deads2k",
+		"country": "us",
+		"company": "redhat",
+		"prs": "1001",
+	},
+	"3": {
+		"github-id": "brendandburns",
+		"country": "us",
+		"company": "google",
+		"prs": "892",
+	},
+	"4": {
+		"github-id": "mikdanese",
+		"country": "us",
+		"company": "google",
+		"prs": "810",
+	},
+	"5": {
+		"github-id": "smarterclayton",
+		"country": "us",
+		"company": "redhat",
+		"prs": "806",
+	},
+	"6": {
+		"github-id": "liggitt",
+		"country": "us",
+		"company": "redhat",
+		"prs": "743",
+	},
+	"7": {
+		"github-id": "caesarxuchao",
+		"country": "-",
+		"company": "google",
+		"prs": "708",
+	},
+	"8": {
+		"github-id": "thockin",
+		"country": "us",
+		"company": "google",
+		"prs": "654",
+	},
+	"9": {
+		"github-id": "gmarek",
+		"country": "poland",
+		"company": "google",
+		"prs": "642",
+	},
+	"10": {
+		"github-id": "sttts",
+		"country": "germany",
+		"company": "redhat",
+		"prs": "594",
+	},
+	"11": {
+		"github-id": "tedyu",
+		"country": "-",
+		"company": "vmware",
+		"prs": "537",
+	},
+	"12": {
+		"github-id": "liggitt",
+		"country": "us",
+		"company": "google",
+		"prs": "531",
+	},
+	"13": {
+		"github-id": "yujuhong",
+		"country": "-",
+		"company": "google",
+		"prs": "519",
+	},
+	"14": {
+		"github-id": "derekwaynecarr",
+		"country": "us",
+		"company": "redhat",
+		"prs": "494",
+	},
+	"15": {
+		"github-id": "lavalamp",
+		"country": "us",
+		"company": "google",
+		"prs": "454",
+	},
+}
