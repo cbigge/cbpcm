@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router'
 import Table from 'react-bootstrap/Table'
+import Form from 'react-bootstrap/Form'
 import './Dashboard.css'
 
 class Dashboard extends Component {
@@ -36,6 +37,31 @@ class Dashboard extends Component {
                     </tr>
                 </tbody>
             </Table>
+
+            <Form>
+                <h5>Exercise</h5>
+                <Form.Row>
+                <Form.Group controlId="length">
+                    <Form.Label>Length in minutes</Form.Label>
+                    <Form.Control type="text" placeholder="60" />
+                </Form.Group>
+                <Form.Group controlId="intensity">
+                    <Form.Label>Intesity</Form.Label>
+                    <Form.Control as="select">
+                        <option>Light</option>
+                        <option>Moderate</option>
+                        <option>Heavy</option>
+                    </Form.Control>
+                </Form.Group>
+                </Form.Row>
+                <h5>Nutrition</h5>
+                <Form.Row>
+                <Form.Group controlId="calories">
+                    <Form.Label>Calories</Form.Label>
+                    <Form.Control type="text" placeholder="2800" />
+                </Form.Group>
+                </Form.Row>
+            </Form>
         </React.Fragment>
         )
     }
