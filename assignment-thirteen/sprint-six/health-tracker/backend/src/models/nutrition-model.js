@@ -8,6 +8,7 @@ const Nutrition = new Schema(
         carbs: { type: Number, required: true },
         protein: { type: Number, required: true },
         fat: { type: Number, required: true },
+        currentWeight: { type: Number, required: true },
         username: { type: String, required: true },
     },
     { timestamps: true },

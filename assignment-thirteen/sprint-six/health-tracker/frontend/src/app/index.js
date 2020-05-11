@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import NavBar from './NavBar/NavBar'
 import auth0Client from './Auth'
 import Callback from './Callback'
-import Dashboard from './Dashboard/Dashboard'
+import { Dashboard } from '../pages'
 import './App.css'
 
 class App extends Component {
@@ -34,8 +34,12 @@ class App extends Component {
         <div>
             <NavBar />
             <Container id="main">
-            <Route exact path='/callback' component={Callback} />
-            <Route exact path='/' component={Dashboard} />
+                <Route exact path='/callback' component={Callback} />
+                <Route exact path='/' component={Dashboard} />
+                //<Route exact path='/exercise/list' component={ExerciseList} />
+                //<Route exact path='/exercise/create' component={ExerciseInsert} />
+                //<Route exact path='/nutrition/list' component={NutritionList} />
+                //<Route exact path='/nutrition/create' component={NutritionCreate} />
             </Container>
         </div>
         );
