@@ -9,4 +9,5 @@ To run my in progress app, navigate to the frontend folder and run `npm start`.
 - [react-bootstrap](https://react-bootstrap.netlify.app)
 
 ## TODO
-Get backend api running with request from frontend. Plan all frontend component design for different health tracking information.
+- Get backend api running with request from frontend.
+- Plan all frontend component design for different health tracking information.

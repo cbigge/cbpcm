@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 import Image from 'react-bootstrap/Image'
-import auth0Client from '../Auth'
+import auth0Client from '../../app/Auth'
 import './NavBar.css'
 
 function NavBar(props) {

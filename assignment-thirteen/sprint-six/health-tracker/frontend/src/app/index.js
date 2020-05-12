@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import { Route, withRouter } from 'react-router'
 import Container from 'react-bootstrap/Container'
-import NavBar from './NavBar/NavBar'
+import NavBar from '../components/NavBar/NavBar'
 import auth0Client from './Auth'
 import Callback from './Callback'
-import { Dashboard } from '../pages'
+import { Dashboard, ExerciseList, ExerciseInsert, NutritionList, NutritionInsert } from '../pages/pages'
+
 import './App.css'
 
 class App extends Component {
@@ -36,10 +37,10 @@ class App extends Component {
             <Container id="main">
                 <Route exact path='/callback' component={Callback} />
                 <Route exact path='/' component={Dashboard} />
-                //<Route exact path='/exercise/list' component={ExerciseList} />
-                //<Route exact path='/exercise/create' component={ExerciseInsert} />
-                //<Route exact path='/nutrition/list' component={NutritionList} />
-                //<Route exact path='/nutrition/create' component={NutritionCreate} />
+                <Route exact path='/exercise/list' component={ExerciseList} />
+                <Route exact path='/exercise/create' component={ExerciseInsert} />
+                <Route exact path='/nutrition/list' component={NutritionList} />
+                <Route exact path='/nutrition/create' component={NutritionInsert} />
             </Container>
         </div>
         );
